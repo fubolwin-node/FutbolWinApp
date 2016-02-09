@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0E00741C4EB3CF00D0E9AE /* messi.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E00731C4EB3CF00D0E9AE /* messi.png */; };
+		CC0E00761C4EB6A400D0E9AE /* messi&noticias.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E00751C4EB6A400D0E9AE /* messi&noticias.png */; };
+		CC0E00781C4EB7E900D0E9AE /* MainTablesViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E00771C4EB7E900D0E9AE /* MainTablesViewViewController.swift */; };
+		CC1D86B71C5007620034E663 /* BetCustomizedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D86B61C5007620034E663 /* BetCustomizedCell.swift */; };
+		CC2B2FCF1C45701200356F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B2FCE1C45701200356F9D /* AppDelegate.swift */; };
+		CC2B2FD11C45701200356F9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B2FD01C45701200356F9D /* ViewController.swift */; };
+		CC2B2FD41C45701200356F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2B2FD21C45701200356F9D /* Main.storyboard */; };
+		CC2B2FD61C45701200356F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2B2FD51C45701200356F9D /* Assets.xcassets */; };
+		CC2B2FD91C45701200356F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2B2FD71C45701200356F9D /* LaunchScreen.storyboard */; };
+		CC2B2FE41C45701200356F9D /* FutbolWinAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B2FE31C45701200356F9D /* FutbolWinAppTests.swift */; };
+		CC2B2FEF1C45701200356F9D /* FutbolWinAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B2FEE1C45701200356F9D /* FutbolWinAppUITests.swift */; };
+		CC2B30031C457C5C00356F9D /* FutbolWinLogo25%.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2B2FFF1C457C5C00356F9D /* FutbolWinLogo25%.png */; };
+		CC2B30041C457C5C00356F9D /* FutbolWinLogo50%.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2B30001C457C5C00356F9D /* FutbolWinLogo50%.png */; };
+		CC2B30051C457C5C00356F9D /* FutbolWinLogo75%.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2B30011C457C5C00356F9D /* FutbolWinLogo75%.png */; };
+		CC2B30061C457C5C00356F9D /* FutbolWinLogo100%.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2B30021C457C5C00356F9D /* FutbolWinLogo100%.png */; };
+		CC675E7E1C489E1200E399B0 /* FutbolWinLogoLetrasBlancas25%.png in Resources */ = {isa = PBXBuildFile; fileRef = CC675E7D1C489E1200E399B0 /* FutbolWinLogoLetrasBlancas25%.png */; };
+		CC675E811C48A1A300E399B0 /* FWin_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC675E801C48A1A300E399B0 /* FWin_User.swift */; };
+		CC9031EE1C5BE4CB00CC6876 /* DerlyFwUser45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9031ED1C5BE4CB00CC6876 /* DerlyFwUser45x45.png */; };
+		CC9031F11C5BE69900CC6876 /* AngelitaFwUser.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9031EF1C5BE69900CC6876 /* AngelitaFwUser.png */; };
+		CC9031F21C5BE69900CC6876 /* LuchitoFwUser.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9031F01C5BE69900CC6876 /* LuchitoFwUser.png */; };
+		CC975AAE1C5940C000AB8AAE /* DerlyFwUser.png in Resources */ = {isa = PBXBuildFile; fileRef = CC975AAD1C5940C000AB8AAE /* DerlyFwUser.png */; };
+		CC9AE5BA1C57EB1A006FF527 /* ImagenPromocionApuestas.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9AE5B91C57EB1A006FF527 /* ImagenPromocionApuestas.png */; };
+		CCA2BA901C4D618100006B36 /* MainStacksViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2BA8F1C4D618100006B36 /* MainStacksViewsViewController.swift */; };
+		CCB95B501C5692B800C310D5 /* MillonariosLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B4E1C5692B800C310D5 /* MillonariosLogo_45x45.png */; };
+		CCB95B511C5692B800C310D5 /* SantaFeLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B4F1C5692B800C310D5 /* SantaFeLogo_45x45.png */; };
+		CCB95B5A1C569C1300C310D5 /* AtleticoMadridLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B521C569C1300C310D5 /* AtleticoMadridLogo_45x45.png */; };
+		CCB95B5B1C569C1300C310D5 /* BarcelonaLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B531C569C1300C310D5 /* BarcelonaLogo_45x45.png */; };
+		CCB95B5C1C569C1300C310D5 /* BrasilLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B541C569C1300C310D5 /* BrasilLogo_45x45.png */; };
+		CCB95B5D1C569C1300C310D5 /* ColombiaLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B551C569C1300C310D5 /* ColombiaLogo_45x45.png */; };
+		CCB95B5E1C569C1300C310D5 /* MedellinLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B561C569C1300C310D5 /* MedellinLogo_45x45.png */; };
+		CCB95B5F1C569C1300C310D5 /* NacionalLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B571C569C1300C310D5 /* NacionalLogo_45x45.png */; };
+		CCB95B601C569C1300C310D5 /* RealMadridLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B581C569C1300C310D5 /* RealMadridLogo_45x45.png */; };
+		CCB95B611C569C1300C310D5 /* RiverPlateLogo_45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB95B591C569C1300C310D5 /* RiverPlateLogo_45x45.png */; };
+		CCC54D0D1C5FD2FA0047F1EB /* CircleDerlyFwUser141x141.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC54D0C1C5FD2FA0047F1EB /* CircleDerlyFwUser141x141.png */; };
+		CCC54D0F1C5FD4100047F1EB /* CircleDerlyFwUser80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC54D0E1C5FD4100047F1EB /* CircleDerlyFwUser80x80.png */; };
+		CCC54D111C5FD4EC0047F1EB /* CircleDerlyFwUser40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC54D101C5FD4EC0047F1EB /* CircleDerlyFwUser40x40.png */; };
+		CCC665A71C529E8E00F3C4FC /* MainDynamicStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC665A61C529E8E00F3C4FC /* MainDynamicStackViewController.swift */; };
+		CCDD99111C5C751E001282AE /* FutbolWinColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD99101C5C751E001282AE /* FutbolWinColors.swift */; };
+		CCFE36061C4F425E005D61DC /* BetsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFE36051C4F425E005D61DC /* BetsList.swift */; };
+		CCFE36081C4F43B7005D61DC /* Bet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFE36071C4F43B7005D61DC /* Bet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC2B2FE01C45701200356F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2B2FC31C45701200356F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2B2FCA1C45701200356F9D;
+			remoteInfo = FutbolWinApp;
+		};
+		CC2B2FEB1C45701200356F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2B2FC31C45701200356F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2B2FCA1C45701200356F9D;
+			remoteInfo = FutbolWinApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC0E00731C4EB3CF00D0E9AE /* messi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messi.png; sourceTree = "<group>"; };
+		CC0E00751C4EB6A400D0E9AE /* messi&noticias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messi&noticias.png"; sourceTree = "<group>"; };
+		CC0E00771C4EB7E900D0E9AE /* MainTablesViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTablesViewViewController.swift; path = main/MainTablesViewViewController.swift; sourceTree = "<group>"; };
+		CC1D86B61C5007620034E663 /* BetCustomizedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetCustomizedCell.swift; path = main/BetCustomizedCell.swift; sourceTree = "<group>"; };
+		CC2B2FCB1C45701200356F9D /* FutbolWinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutbolWinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2B2FCE1C45701200356F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC2B2FD01C45701200356F9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC2B2FD31C45701200356F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC2B2FD51C45701200356F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC2B2FD81C45701200356F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC2B2FDA1C45701200356F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2B2FDF1C45701200356F9D /* FutbolWinAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutbolWinAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2B2FE31C45701200356F9D /* FutbolWinAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutbolWinAppTests.swift; sourceTree = "<group>"; };
+		CC2B2FE51C45701200356F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2B2FEA1C45701200356F9D /* FutbolWinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutbolWinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2B2FEE1C45701200356F9D /* FutbolWinAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutbolWinAppUITests.swift; sourceTree = "<group>"; };
+		CC2B2FF01C45701200356F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2B2FFF1C457C5C00356F9D /* FutbolWinLogo25%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FutbolWinLogo25%.png"; sourceTree = "<group>"; };
+		CC2B30001C457C5C00356F9D /* FutbolWinLogo50%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FutbolWinLogo50%.png"; sourceTree = "<group>"; };
+		CC2B30011C457C5C00356F9D /* FutbolWinLogo75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FutbolWinLogo75%.png"; sourceTree = "<group>"; };
+		CC2B30021C457C5C00356F9D /* FutbolWinLogo100%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FutbolWinLogo100%.png"; sourceTree = "<group>"; };
+		CC675E7D1C489E1200E399B0 /* FutbolWinLogoLetrasBlancas25%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FutbolWinLogoLetrasBlancas25%.png"; path = "../../../../MyDocuments/FutbolWinApp_Imagenes/FutbolWinLogoLetrasBlancas25%.png"; sourceTree = "<group>"; };
+		CC675E801C48A1A300E399B0 /* FWin_User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWin_User.swift; sourceTree = "<group>"; };
+		CC9031ED1C5BE4CB00CC6876 /* DerlyFwUser45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DerlyFwUser45x45.png; sourceTree = "<group>"; };
+		CC9031EF1C5BE69900CC6876 /* AngelitaFwUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AngelitaFwUser.png; sourceTree = "<group>"; };
+		CC9031F01C5BE69900CC6876 /* LuchitoFwUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuchitoFwUser.png; sourceTree = "<group>"; };
+		CC975AAD1C5940C000AB8AAE /* DerlyFwUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DerlyFwUser.png; sourceTree = "<group>"; };
+		CC9AE5B91C57EB1A006FF527 /* ImagenPromocionApuestas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImagenPromocionApuestas.png; sourceTree = "<group>"; };
+		CCA2BA8F1C4D618100006B36 /* MainStacksViewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainStacksViewsViewController.swift; path = main/MainStacksViewsViewController.swift; sourceTree = "<group>"; };
+		CCB95B4E1C5692B800C310D5 /* MillonariosLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MillonariosLogo_45x45.png; sourceTree = "<group>"; };
+		CCB95B4F1C5692B800C310D5 /* SantaFeLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SantaFeLogo_45x45.png; sourceTree = "<group>"; };
+		CCB95B521C569C1300C310D5 /* AtleticoMadridLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtleticoMadridLogo_45x45.png; sourceTree = "<group>"; };
+		CCB95B531C569C1300C310D5 /* BarcelonaLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarcelonaLogo_45x45.png; sourceTree = "<group>"; };
+		CCB95B541C569C1300C310D5 /* BrasilLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrasilLogo_45x45.png; sourceTree = "<group>"; };
+		CCB95B551C569C1300C310D5 /* ColombiaLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColombiaLogo_45x45.png; sourceTree = "<group>"; };
+		CCB95B561C569C1300C310D5 /* MedellinLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MedellinLogo_45x45.png; sourceTree = "<group>"; };
+		CCB95B571C569C1300C310D5 /* NacionalLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NacionalLogo_45x45.png; sourceTree = "<group>"; };
+		CCB95B581C569C1300C310D5 /* RealMadridLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RealMadridLogo_45x45.png; sourceTree = "<group>"; };
+		CCB95B591C569C1300C310D5 /* RiverPlateLogo_45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RiverPlateLogo_45x45.png; sourceTree = "<group>"; };
+		CCC54D0C1C5FD2FA0047F1EB /* CircleDerlyFwUser141x141.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleDerlyFwUser141x141.png; sourceTree = "<group>"; };
+		CCC54D0E1C5FD4100047F1EB /* CircleDerlyFwUser80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleDerlyFwUser80x80.png; sourceTree = "<group>"; };
+		CCC54D101C5FD4EC0047F1EB /* CircleDerlyFwUser40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleDerlyFwUser40x40.png; sourceTree = "<group>"; };
+		CCC665A61C529E8E00F3C4FC /* MainDynamicStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainDynamicStackViewController.swift; path = main/MainDynamicStackViewController.swift; sourceTree = "<group>"; };
+		CCDD99101C5C751E001282AE /* FutbolWinColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FutbolWinColors.swift; sourceTree = "<group>"; };
+		CCFE36051C4F425E005D61DC /* BetsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetsList.swift; path = main/BetsList.swift; sourceTree = "<group>"; };
+		CCFE36071C4F43B7005D61DC /* Bet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bet.swift; path = main/Bet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC2B2FC81C45701200356F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B2FDC1C45701200356F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B2FE71C45701200356F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC2B2FC21C45701200356F9D = {
+			isa = PBXGroup;
+			children = (
+				CC2B2FCD1C45701200356F9D /* FutbolWinApp */,
+				CC2B2FE21C45701200356F9D /* FutbolWinAppTests */,
+				CC2B2FED1C45701200356F9D /* FutbolWinAppUITests */,
+				CC2B2FCC1C45701200356F9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC2B2FCC1C45701200356F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B2FCB1C45701200356F9D /* FutbolWinApp.app */,
+				CC2B2FDF1C45701200356F9D /* FutbolWinAppTests.xctest */,
+				CC2B2FEA1C45701200356F9D /* FutbolWinAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC2B2FCD1C45701200356F9D /* FutbolWinApp */ = {
+			isa = PBXGroup;
+			children = (
+				CCDD990F1C5C751E001282AE /* Commons */,
+				CCA2BA911C4D618800006B36 /* main */,
+				CC675E7F1C48A13A00E399B0 /* Login */,
+				CC2B2FFC1C45791800356F9D /* images */,
+				CC2B2FCE1C45701200356F9D /* AppDelegate.swift */,
+				CC2B2FD01C45701200356F9D /* ViewController.swift */,
+				CC2B2FD21C45701200356F9D /* Main.storyboard */,
+				CC2B2FD51C45701200356F9D /* Assets.xcassets */,
+				CC2B2FD71C45701200356F9D /* LaunchScreen.storyboard */,
+				CC2B2FDA1C45701200356F9D /* Info.plist */,
+			);
+			path = FutbolWinApp;
+			sourceTree = "<group>";
+		};
+		CC2B2FE21C45701200356F9D /* FutbolWinAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B2FE31C45701200356F9D /* FutbolWinAppTests.swift */,
+				CC2B2FE51C45701200356F9D /* Info.plist */,
+			);
+			path = FutbolWinAppTests;
+			sourceTree = "<group>";
+		};
+		CC2B2FED1C45701200356F9D /* FutbolWinAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B2FEE1C45701200356F9D /* FutbolWinAppUITests.swift */,
+				CC2B2FF01C45701200356F9D /* Info.plist */,
+			);
+			path = FutbolWinAppUITests;
+			sourceTree = "<group>";
+		};
+		CC2B2FFC1C45791800356F9D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CCC54D101C5FD4EC0047F1EB /* CircleDerlyFwUser40x40.png */,
+				CCC54D0E1C5FD4100047F1EB /* CircleDerlyFwUser80x80.png */,
+				CCC54D0C1C5FD2FA0047F1EB /* CircleDerlyFwUser141x141.png */,
+				CC9031EF1C5BE69900CC6876 /* AngelitaFwUser.png */,
+				CC9031F01C5BE69900CC6876 /* LuchitoFwUser.png */,
+				CC9031ED1C5BE4CB00CC6876 /* DerlyFwUser45x45.png */,
+				CC975AAD1C5940C000AB8AAE /* DerlyFwUser.png */,
+				CC9AE5B91C57EB1A006FF527 /* ImagenPromocionApuestas.png */,
+				CCB95B521C569C1300C310D5 /* AtleticoMadridLogo_45x45.png */,
+				CCB95B531C569C1300C310D5 /* BarcelonaLogo_45x45.png */,
+				CCB95B541C569C1300C310D5 /* BrasilLogo_45x45.png */,
+				CCB95B551C569C1300C310D5 /* ColombiaLogo_45x45.png */,
+				CCB95B561C569C1300C310D5 /* MedellinLogo_45x45.png */,
+				CCB95B571C569C1300C310D5 /* NacionalLogo_45x45.png */,
+				CCB95B581C569C1300C310D5 /* RealMadridLogo_45x45.png */,
+				CCB95B591C569C1300C310D5 /* RiverPlateLogo_45x45.png */,
+				CCB95B4E1C5692B800C310D5 /* MillonariosLogo_45x45.png */,
+				CCB95B4F1C5692B800C310D5 /* SantaFeLogo_45x45.png */,
+				CC0E00751C4EB6A400D0E9AE /* messi&noticias.png */,
+				CC0E00731C4EB3CF00D0E9AE /* messi.png */,
+				CC675E7D1C489E1200E399B0 /* FutbolWinLogoLetrasBlancas25%.png */,
+				CC2B2FFF1C457C5C00356F9D /* FutbolWinLogo25%.png */,
+				CC2B30001C457C5C00356F9D /* FutbolWinLogo50%.png */,
+				CC2B30011C457C5C00356F9D /* FutbolWinLogo75%.png */,
+				CC2B30021C457C5C00356F9D /* FutbolWinLogo100%.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CC675E7F1C48A13A00E399B0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CC675E801C48A1A300E399B0 /* FWin_User.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		CCA2BA911C4D618800006B36 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2BA8F1C4D618100006B36 /* MainStacksViewsViewController.swift */,
+				CC0E00771C4EB7E900D0E9AE /* MainTablesViewViewController.swift */,
+				CCFE36051C4F425E005D61DC /* BetsList.swift */,
+				CCFE36071C4F43B7005D61DC /* Bet.swift */,
+				CC1D86B61C5007620034E663 /* BetCustomizedCell.swift */,
+				CCC665A61C529E8E00F3C4FC /* MainDynamicStackViewController.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		CCDD990F1C5C751E001282AE /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				CCDD99101C5C751E001282AE /* FutbolWinColors.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC2B2FCA1C45701200356F9D /* FutbolWinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2B2FF31C45701200356F9D /* Build configuration list for PBXNativeTarget "FutbolWinApp" */;
+			buildPhases = (
+				CC2B2FC71C45701200356F9D /* Sources */,
+				CC2B2FC81C45701200356F9D /* Frameworks */,
+				CC2B2FC91C45701200356F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FutbolWinApp;
+			productName = FutbolWinApp;
+			productReference = CC2B2FCB1C45701200356F9D /* FutbolWinApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC2B2FDE1C45701200356F9D /* FutbolWinAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2B2FF61C45701200356F9D /* Build configuration list for PBXNativeTarget "FutbolWinAppTests" */;
+			buildPhases = (
+				CC2B2FDB1C45701200356F9D /* Sources */,
+				CC2B2FDC1C45701200356F9D /* Frameworks */,
+				CC2B2FDD1C45701200356F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2B2FE11C45701200356F9D /* PBXTargetDependency */,
+			);
+			name = FutbolWinAppTests;
+			productName = FutbolWinAppTests;
+			productReference = CC2B2FDF1C45701200356F9D /* FutbolWinAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC2B2FE91C45701200356F9D /* FutbolWinAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2B2FF91C45701200356F9D /* Build configuration list for PBXNativeTarget "FutbolWinAppUITests" */;
+			buildPhases = (
+				CC2B2FE61C45701200356F9D /* Sources */,
+				CC2B2FE71C45701200356F9D /* Frameworks */,
+				CC2B2FE81C45701200356F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2B2FEC1C45701200356F9D /* PBXTargetDependency */,
+			);
+			name = FutbolWinAppUITests;
+			productName = FutbolWinAppUITests;
+			productReference = CC2B2FEA1C45701200356F9D /* FutbolWinAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC2B2FC31C45701200356F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Innovatie;
+				TargetAttributes = {
+					CC2B2FCA1C45701200356F9D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CC2B2FDE1C45701200356F9D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC2B2FCA1C45701200356F9D;
+					};
+					CC2B2FE91C45701200356F9D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC2B2FCA1C45701200356F9D;
+					};
+				};
+			};
+			buildConfigurationList = CC2B2FC61C45701200356F9D /* Build configuration list for PBXProject "FutbolWinApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC2B2FC21C45701200356F9D;
+			productRefGroup = CC2B2FCC1C45701200356F9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2B2FCA1C45701200356F9D /* FutbolWinApp */,
+				CC2B2FDE1C45701200356F9D /* FutbolWinAppTests */,
+				CC2B2FE91C45701200356F9D /* FutbolWinAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC2B2FC91C45701200356F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB95B5F1C569C1300C310D5 /* NacionalLogo_45x45.png in Resources */,
+				CCB95B601C569C1300C310D5 /* RealMadridLogo_45x45.png in Resources */,
+				CC9AE5BA1C57EB1A006FF527 /* ImagenPromocionApuestas.png in Resources */,
+				CCB95B511C5692B800C310D5 /* SantaFeLogo_45x45.png in Resources */,
+				CCB95B5A1C569C1300C310D5 /* AtleticoMadridLogo_45x45.png in Resources */,
+				CC0E00741C4EB3CF00D0E9AE /* messi.png in Resources */,
+				CC9031F11C5BE69900CC6876 /* AngelitaFwUser.png in Resources */,
+				CCB95B5B1C569C1300C310D5 /* BarcelonaLogo_45x45.png in Resources */,
+				CCB95B5E1C569C1300C310D5 /* MedellinLogo_45x45.png in Resources */,
+				CC975AAE1C5940C000AB8AAE /* DerlyFwUser.png in Resources */,
+				CC2B2FD91C45701200356F9D /* LaunchScreen.storyboard in Resources */,
+				CC2B30061C457C5C00356F9D /* FutbolWinLogo100%.png in Resources */,
+				CC2B2FD61C45701200356F9D /* Assets.xcassets in Resources */,
+				CCB95B501C5692B800C310D5 /* MillonariosLogo_45x45.png in Resources */,
+				CC9031F21C5BE69900CC6876 /* LuchitoFwUser.png in Resources */,
+				CCC54D0D1C5FD2FA0047F1EB /* CircleDerlyFwUser141x141.png in Resources */,
+				CCB95B611C569C1300C310D5 /* RiverPlateLogo_45x45.png in Resources */,
+				CCB95B5C1C569C1300C310D5 /* BrasilLogo_45x45.png in Resources */,
+				CCB95B5D1C569C1300C310D5 /* ColombiaLogo_45x45.png in Resources */,
+				CCC54D111C5FD4EC0047F1EB /* CircleDerlyFwUser40x40.png in Resources */,
+				CC0E00761C4EB6A400D0E9AE /* messi&noticias.png in Resources */,
+				CC2B2FD41C45701200356F9D /* Main.storyboard in Resources */,
+				CC9031EE1C5BE4CB00CC6876 /* DerlyFwUser45x45.png in Resources */,
+				CCC54D0F1C5FD4100047F1EB /* CircleDerlyFwUser80x80.png in Resources */,
+				CC675E7E1C489E1200E399B0 /* FutbolWinLogoLetrasBlancas25%.png in Resources */,
+				CC2B30041C457C5C00356F9D /* FutbolWinLogo50%.png in Resources */,
+				CC2B30031C457C5C00356F9D /* FutbolWinLogo25%.png in Resources */,
+				CC2B30051C457C5C00356F9D /* FutbolWinLogo75%.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B2FDD1C45701200356F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B2FE81C45701200356F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC2B2FC71C45701200356F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0E00781C4EB7E900D0E9AE /* MainTablesViewViewController.swift in Sources */,
+				CC2B2FD11C45701200356F9D /* ViewController.swift in Sources */,
+				CCC665A71C529E8E00F3C4FC /* MainDynamicStackViewController.swift in Sources */,
+				CC675E811C48A1A300E399B0 /* FWin_User.swift in Sources */,
+				CC2B2FCF1C45701200356F9D /* AppDelegate.swift in Sources */,
+				CCDD99111C5C751E001282AE /* FutbolWinColors.swift in Sources */,
+				CC1D86B71C5007620034E663 /* BetCustomizedCell.swift in Sources */,
+				CCA2BA901C4D618100006B36 /* MainStacksViewsViewController.swift in Sources */,
+				CCFE36061C4F425E005D61DC /* BetsList.swift in Sources */,
+				CCFE36081C4F43B7005D61DC /* Bet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B2FDB1C45701200356F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2B2FE41C45701200356F9D /* FutbolWinAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B2FE61C45701200356F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2B2FEF1C45701200356F9D /* FutbolWinAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC2B2FE11C45701200356F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2B2FCA1C45701200356F9D /* FutbolWinApp */;
+			targetProxy = CC2B2FE01C45701200356F9D /* PBXContainerItemProxy */;
+		};
+		CC2B2FEC1C45701200356F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2B2FCA1C45701200356F9D /* FutbolWinApp */;
+			targetProxy = CC2B2FEB1C45701200356F9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC2B2FD21C45701200356F9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2B2FD31C45701200356F9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC2B2FD71C45701200356F9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2B2FD81C45701200356F9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC2B2FF11C45701200356F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC2B2FF21C45701200356F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC2B2FF41C45701200356F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FutbolWinApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatie.FutbolWinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CC2B2FF51C45701200356F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FutbolWinApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatie.FutbolWinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CC2B2FF71C45701200356F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FutbolWinAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatie.FutbolWinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutbolWinApp.app/FutbolWinApp";
+			};
+			name = Debug;
+		};
+		CC2B2FF81C45701200356F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FutbolWinAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatie.FutbolWinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutbolWinApp.app/FutbolWinApp";
+			};
+			name = Release;
+		};
+		CC2B2FFA1C45701200356F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FutbolWinAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatie.FutbolWinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FutbolWinApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC2B2FFB1C45701200356F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FutbolWinAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatie.FutbolWinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FutbolWinApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2B2FC61C45701200356F9D /* Build configuration list for PBXProject "FutbolWinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2B2FF11C45701200356F9D /* Debug */,
+				CC2B2FF21C45701200356F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2B2FF31C45701200356F9D /* Build configuration list for PBXNativeTarget "FutbolWinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2B2FF41C45701200356F9D /* Debug */,
+				CC2B2FF51C45701200356F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2B2FF61C45701200356F9D /* Build configuration list for PBXNativeTarget "FutbolWinAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2B2FF71C45701200356F9D /* Debug */,
+				CC2B2FF81C45701200356F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2B2FF91C45701200356F9D /* Build configuration list for PBXNativeTarget "FutbolWinAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2B2FFA1C45701200356F9D /* Debug */,
+				CC2B2FFB1C45701200356F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC2B2FC31C45701200356F9D /* Project object */;
+}
